@@ -1,0 +1,107 @@
+img {
+  display:block;
+  width:300px;
+}
+
+body {
+  color: black;
+padding-left: 20px;
+padding-right: 20px;
+}
+a{
+  color: black;
+  text-decoration:none;
+
+
+}
+.CV{
+  background-color:#2e8cdc;
+  padding:10px;
+  border-radius:20px;
+
+}
+.contact-list{
+  list-style-type: none;
+}
+li{
+  padding-top:8px;
+}
+.menu , .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exp-time-pos, .exp-com-des {
+  display:flex;
+}
+
+.exp-time,.exp-com {
+  flex:1;
+  text-align:right;
+  margin-right: 20px;
+}
+.exp-pos,.exp-des {
+  flex:2;
+}
+.exp-des{
+  padding:0;
+  list-style-type: none;
+}
+footer{
+  display: flex;
+  justify-content:space-between;
+  padding: 0px 20px 20px 20px;
+  background-color:#8DA1B9;
+  margin-top:20px;
+}
+.DD {
+  margin-bottom: 50px;
+}
+nav {
+  background-color:#EF959C;
+  padding:5px 10px;
+}
+.header-content{
+  background-color:#DBC7BE;
+  padding:20px;
+  margin-top:20px;
+
+
+}
+.exp-sec{
+  background-color:#CBB3BF;
+  padding:20px;
+  margin-top:20px;
+}
+.cert-sec{
+  background-color:#DBC7BE;
+  padding:20px;
+  margin-top:20px;
+}
+#About{
+  background-color: #cbb3bf;
+  padding: 20px;
+  margin-top: 20px;
+}
+.Skills{
+  background-color:#95ADB6;
+  padding:20px;
+  margin-top:20px;
+}
+.skills-container{
+  display:flex;
+  align-items:center;
+}
+meter{
+  margin: 20px;
+  flex:1;
+
+}
+
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+meter::-webkit-meter-optimum-value {
+  background: purple;
+}
